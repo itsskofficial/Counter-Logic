@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const useCounter = () => {
+const useCounter = (flag) => {
     const [counter, setCounter] = useState(0);
 
     useEffect(() => {
