@@ -1,4 +1,4 @@
-const useCounter = () +> {
+const useCounter = () => {
     const [counter, setCounter] = useState(0);
 
     useEffect(() => {
