@@ -6,9 +6,12 @@ const useCounter = (flag) => {
     useEffect(() => {
         const interval = setInterval(() => {
             if (flag) {
-              
-          }
-        setCounter((prevCounter) => prevCounter + 1);
+                setCounter((prevCounter) => prevCounter + 1);
+            }
+            else {
+                
+            }
+        
       }, 1000);
   
       return () => clearInterval(interval);
