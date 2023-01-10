@@ -4,7 +4,7 @@ import useCounter from '../hooks/useCounter';
 import Card from './Card';
 
 const BackwardCounter = () => {
-  const counter = useCounter()
+  const counter = useCounter(0)
 
   
 
