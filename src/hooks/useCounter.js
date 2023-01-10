@@ -13,3 +13,5 @@ const useCounter = () => {
 
     return counter
 }
+
+export default useCounter
