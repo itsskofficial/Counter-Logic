@@ -5,9 +5,6 @@ import Card from './Card';
 
 const BackwardCounter = () => {
   const counter = useCounter(0)
-
-  
-
   return <Card>{counter}</Card>;
 };
 
