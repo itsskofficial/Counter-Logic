@@ -9,9 +9,8 @@ const useCounter = (flag) => {
                 setCounter((prevCounter) => prevCounter + 1);
             }
             else {
-                
-            }
-        
+                setCounter((prevCounter) => prevCounter - 1);
+            }  
       }, 1000);
   
       return () => clearInterval(interval);
