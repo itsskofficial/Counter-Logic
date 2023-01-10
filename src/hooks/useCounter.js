@@ -4,7 +4,10 @@ const useCounter = (flag) => {
     const [counter, setCounter] = useState(0);
 
     useEffect(() => {
-      const interval = setInterval(() => {
+        const interval = setInterval(() => {
+            if (flag) {
+              
+          }
         setCounter((prevCounter) => prevCounter + 1);
       }, 1000);
   
